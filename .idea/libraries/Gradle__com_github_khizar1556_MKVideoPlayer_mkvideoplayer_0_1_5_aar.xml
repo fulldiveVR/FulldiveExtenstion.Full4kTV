@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/transforms-3/41587e877184b195d6bb00d5eb452f7e/transformed/jetified-mkvideoplayer-0.1.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-3/41587e877184b195d6bb00d5eb452f7e/transformed/jetified-mkvideoplayer-0.1.5/res" />
+      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-3/41587e877184b195d6bb00d5eb452f7e/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

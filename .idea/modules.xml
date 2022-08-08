@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Full-4k-TV.iml" filepath="$PROJECT_DIR$/.idea/modules/Full-4k-TV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
