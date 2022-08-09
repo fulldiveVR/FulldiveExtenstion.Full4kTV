@@ -50,7 +50,7 @@ import java.util.List;
 import kotlin.Unit;
 import kotlin.jvm.functions.Function1;
 
-public class PlaylistActivity extends AppCompatActivity implements Function1<DonationAction, Unit> {
+public class PlaylistActivity extends AppCompatActivity {
 
     private static final String EXT_M3U = "#EXTM3U";
     private static final String EXT_INF = "#EXTINF:";
@@ -79,8 +79,19 @@ public class PlaylistActivity extends AppCompatActivity implements Function1<Don
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playlist);
-        new PopupManager().onAppStarted(this,BuildConfig.APPLICATION_ID ,true,true,true,550,this);
+        new PopupManager().onAppStarted(
+                this,
+                BuildConfig.APPLICATION_ID,
+                true,
+                true,
+                true,
+                (int) getResources().getDimension(R.dimen.size_48dp),
+                (action) -> {
+                    DonationManager.INSTANCE.purchase(this);
 
+                    return null;
+                }
+        );
         mcon = this;
 
         sharedPrefManager = new SharedPrefManager(this);
@@ -233,23 +244,7 @@ public class PlaylistActivity extends AppCompatActivity implements Function1<Don
         });
         return super.onPrepareOptionsMenu(menu);
     }
-    @Override
-    public Unit invoke(DonationAction donationAction) {
-        if (String.valueOf(donationAction).contains("OpenedFromPopup")){
-            //Toast.makeText(this,"open",Toast.LENGTH_LONG).show();
-            DonationManager.INSTANCE.purchase(this);
 
-            //new PopupManager().showDonationSuccess(MainActivity.this);
-
-        }
-        Log.e("", String.valueOf(donationAction));
-        //Toast.makeText(this,donationAction.toString(),Toast.LENGTH_LONG).show();
-        return null;
-    }
-    @Override
-    public void onPointerCaptureChanged(boolean hasCapture) {
-        super.onPointerCaptureChanged(hasCapture);
-    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
