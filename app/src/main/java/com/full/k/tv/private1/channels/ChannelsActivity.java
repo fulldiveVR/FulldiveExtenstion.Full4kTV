@@ -212,13 +212,13 @@ public class ChannelsActivity extends AppCompatActivity {
                             .setView(dialogView)
                             .show();
                 }else if (id == R.id.action_rate) {
-                    Uri uri = Uri.parse("https://github.com/bachors/IPTV-Android");
+                    Uri uri = Uri.parse("https://github.com/FDweb0/Full-4k-TV");
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     startActivity(intent);
                 }else if (id == R.id.action_share) {
                     Intent shareIntent = new Intent(Intent.ACTION_SEND);
                     shareIntent.setType("text/plain");
-                    shareIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/bachors/IPTV-Android");
+                    shareIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/FDweb0/Full-4k-TV");
                     startActivity(Intent.createChooser(shareIntent, "Share link using"));
                 }
 

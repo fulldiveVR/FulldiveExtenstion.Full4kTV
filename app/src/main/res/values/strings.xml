@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Full 4k TV</string>
-    <string name="app_v">Developed by Bachors</string>
+    <string name="app_v">Developed by Full 4k TV</string>
 
     <string name="playlist">Playlist</string>
 
@@ -8,5 +8,7 @@
     <string name="about_des">IPTV Playlist.</string>
     <string name="rate_this">Rate</string>
     <string name="share_this">Share</string>
+    <string name="donate">Support Us</string>
+
 
 </resources>

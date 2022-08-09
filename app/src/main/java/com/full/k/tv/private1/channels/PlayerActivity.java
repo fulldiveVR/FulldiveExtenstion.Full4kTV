@@ -8,14 +8,20 @@ import android.os.Bundle;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+
 import com.khizar1556.mkvideoplayer.MKPlayer;
 
-public class PlayerActivity extends AppCompatActivity {
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+public class PlayerActivity extends AppCompatActivity  {
 
     MKPlayer mkplayer;
 
@@ -67,6 +73,7 @@ public class PlayerActivity extends AppCompatActivity {
         }
     }
 
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
@@ -109,7 +116,7 @@ public class PlayerActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_about) {
+    if(id == R.id.action_about) {
             LayoutInflater inflater = this.getLayoutInflater();
             View dialogView = inflater.inflate(R.layout.bachors_apps, null);
             new AlertDialog.Builder(this)
@@ -118,13 +125,13 @@ public class PlayerActivity extends AppCompatActivity {
                     .setView(dialogView)
                     .show();
         }else if (id == R.id.action_rate) {
-            Uri uri = Uri.parse("https://github.com/bachors/IPTV-Android");
+            Uri uri = Uri.parse("https://github.com/FDweb0/Full-4k-TV");
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
         }else if (id == R.id.action_share) {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/bachors/IPTV-Android");
+            shareIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/FDweb0/Full-4k-TV");
             startActivity(Intent.createChooser(shareIntent, "Share link using"));
         }
 

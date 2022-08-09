@@ -30,6 +30,9 @@ import com.full.k.tv.private1.channels.models.PlaylistResponse;
 import com.full.k.tv.private1.channels.util.HttpHandler;
 import com.full.k.tv.private1.channels.util.RecyclerTouchListener;
 import com.full.k.tv.private1.channels.util.SharedPrefManager;
+import com.fulldive.startapppopups.PopupManager;
+import com.fulldive.startapppopups.donation.DonationAction;
+import com.fulldive.startapppopups.donation.DonationManager;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;
@@ -44,7 +47,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlaylistActivity extends AppCompatActivity {
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+public class PlaylistActivity extends AppCompatActivity implements Function1<DonationAction, Unit> {
 
     private static final String EXT_M3U = "#EXTM3U";
     private static final String EXT_INF = "#EXTINF:";
@@ -73,6 +79,7 @@ public class PlaylistActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playlist);
+        new PopupManager().onAppStarted(this,BuildConfig.APPLICATION_ID ,true,true,true,550,this);
 
         mcon = this;
 
@@ -226,7 +233,23 @@ public class PlaylistActivity extends AppCompatActivity {
         });
         return super.onPrepareOptionsMenu(menu);
     }
+    @Override
+    public Unit invoke(DonationAction donationAction) {
+        if (String.valueOf(donationAction).contains("OpenedFromPopup")){
+            //Toast.makeText(this,"open",Toast.LENGTH_LONG).show();
+            DonationManager.INSTANCE.purchase(this);
 
+            //new PopupManager().showDonationSuccess(MainActivity.this);
+
+        }
+        Log.e("", String.valueOf(donationAction));
+        //Toast.makeText(this,donationAction.toString(),Toast.LENGTH_LONG).show();
+        return null;
+    }
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+        super.onPointerCaptureChanged(hasCapture);
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -235,7 +258,18 @@ public class PlaylistActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_about) {
+        if (id == R.id.donate) {
+            DonationManager.INSTANCE.purchaseFromSettings(
+                    PlaylistActivity.this,
+                    () -> {
+                        return null;
+                    },
+                    () -> {
+                        new PopupManager().showDonationSuccess(PlaylistActivity.this);
+                        return null;
+                    }
+            );
+        } else if (id == R.id.action_about) {
             LayoutInflater inflater = this.getLayoutInflater();
             View dialogView = inflater.inflate(R.layout.bachors_apps, null);
             new AlertDialog.Builder(this)
@@ -244,13 +278,13 @@ public class PlaylistActivity extends AppCompatActivity {
                     .setView(dialogView)
                     .show();
         }else if (id == R.id.action_rate) {
-            Uri uri = Uri.parse("https://github.com/bachors/IPTV-Android");
+            Uri uri = Uri.parse("https://github.com/FDweb0/Full-4k-TV");
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
         }else if (id == R.id.action_share) {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/bachors/IPTV-Android");
+            shareIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/FDweb0/Full-4k-TV");
             startActivity(Intent.createChooser(shareIntent, "Share link using"));
         }
 

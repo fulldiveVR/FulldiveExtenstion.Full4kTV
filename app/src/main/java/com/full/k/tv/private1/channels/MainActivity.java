@@ -21,10 +21,7 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 
-import kotlin.Unit;
-import kotlin.jvm.functions.Function1;
-
-public class MainActivity extends AppCompatActivity implements Function1<DonationAction, Unit> {
+public class MainActivity extends AppCompatActivity {
 
     SharedPrefManager sharedPrefManager;
 
@@ -42,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements Function1<Donatio
     }
     @Override
     public void onStart() {
-        new PopupManager().onAppStarted(this,"com.full.k.tv.private1.channels",true,true,true,550,this);
         super.onStart();
     }
     @Override
@@ -110,22 +106,7 @@ public class MainActivity extends AppCompatActivity implements Function1<Donatio
                 5000);
     }
 
-    @Override
-    public Unit invoke(DonationAction donationAction) {
-        if (String.valueOf(donationAction).contains("OpenedFromPopup")){
-            //Toast.makeText(this,"open",Toast.LENGTH_LONG).show();
-            DonationManager.INSTANCE.purchase(this);
 
-            //new PopupManager().showDonationSuccess(MainActivity.this);
 
-        }
-        Log.e("", String.valueOf(donationAction));
-        //Toast.makeText(this,donationAction.toString(),Toast.LENGTH_LONG).show();
-        return null;
-    }
 
-    @Override
-    public void onPointerCaptureChanged(boolean hasCapture) {
-        super.onPointerCaptureChanged(hasCapture);
-    }
 }

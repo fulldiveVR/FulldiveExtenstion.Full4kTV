@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Full-4k-TV/app/src/main/res/drawable/ic_dots.xml" value="0.288" />
+        <entry key="..\:/AndroidStudioProjects/Full-4k-TV/app/src/main/res/layout/item_channels.xml" value="0.42916666666666664" />
+        <entry key="..\:/AndroidStudioProjects/Full-4k-TV/app/src/main/res/menu/main.xml" value="0.42916666666666664" />
         <entry key="..\:/AndroidStudioProjects/Full-4k-TV/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2695" />
       </map>
     </option>
