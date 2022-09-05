@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,6 +15,9 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.appcompat.widget.SearchView;
+
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -22,7 +26,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.full.k.tv.private1.channels.adapter.PlaylistAdapter;
 import com.full.k.tv.private1.channels.models.PlaylistData;
@@ -197,6 +203,7 @@ public class PlaylistActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_search, menu);
         getMenuInflater().inflate(R.menu.menu_load, menu);
 
+        Log.d("MYTAG","RUN");
         MenuItem mSearch = menu.findItem(R.id.action_search);
 
         SearchView mSearchView = (SearchView) mSearch.getActionView();
@@ -233,6 +240,7 @@ public class PlaylistActivity extends AppCompatActivity {
         View v = MenuItemCompat.getActionView(actionViewItem2);
         Button x = (Button) v.findViewById(R.id.btn_load);
         // Handle button click here
+
         x.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -251,34 +259,8 @@ public class PlaylistActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.donate) {
-            DonationManager.INSTANCE.purchaseFromSettings(
-                    PlaylistActivity.this,
-                    () -> {
-                        return null;
-                    },
-                    () -> {
-                        new PopupManager().showDonationSuccess(PlaylistActivity.this);
-                        return null;
-                    }
-            );
-        } else if (id == R.id.action_about) {
-            LayoutInflater inflater = this.getLayoutInflater();
-            View dialogView = inflater.inflate(R.layout.bachors_apps, null);
-            new AlertDialog.Builder(this)
-                    .setCancelable(false)
-                    .setNegativeButton("Ok", null)
-                    .setView(dialogView)
-                    .show();
-        }else if (id == R.id.action_rate) {
-            Uri uri = Uri.parse("https://github.com/FDweb0/Full-4k-TV");
-            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-            startActivity(intent);
-        }else if (id == R.id.action_share) {
-            Intent shareIntent = new Intent(Intent.ACTION_SEND);
-            shareIntent.setType("text/plain");
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/FDweb0/Full-4k-TV");
-            startActivity(Intent.createChooser(shareIntent, "Share link using"));
+        if (id == R.id.action_settings) {
+            startActivity(new Intent(this,SettingsActivity.class));
         }
 
         return super.onOptionsItemSelected(item);

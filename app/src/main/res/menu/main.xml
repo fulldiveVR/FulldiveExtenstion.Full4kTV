@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
-        android:id="@+id/donate"
-        android:title="@string/donate"/>
-    <item
-        android:id="@+id/action_about"
-        android:title="@string/about_us" />
-    <item
-        android:id="@+id/action_rate"
-        android:title="@string/rate_this"/>
-    <item
-        android:id="@+id/action_share"
-        android:title="@string/share_this"/>
+        android:id="@+id/action_settings"
+        android:title="Settings" />
+
 </menu>

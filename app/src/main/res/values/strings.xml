@@ -8,7 +8,14 @@
     <string name="about_des">Full 4k TV Playlist.</string>
     <string name="rate_this">Rate</string>
     <string name="share_this">Share</string>
-    <string name="donate">Support Us</string>
+    <string name="donate">Support Us </string>
+    <string name="preferences">Settings</string>
+    <string name="refresh">Refresh</string>
 
+    <string-array name="settings">
+        <item>About</item>
+        <item>Share</item>
+        <item>Cancel</item>
+    </string-array>
 
 </resources>

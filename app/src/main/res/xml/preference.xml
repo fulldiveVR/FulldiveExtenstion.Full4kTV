@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/preferences">
+    <Preference
+        android:key="action_about"
+        android:title="@string/about_us" />
+    <Preference
+        android:key="action_rate"
+        android:title="@string/rate_this"/>
+    <Preference
+        android:key="action_share"
+        android:title="@string/share_this"/>
+    <PreferenceCategory
+        android:title="Support Us"
+     >
+
+        <Preference
+            android:key="support_us"
+            android:summary="Buy FullDive a cup of coffe"
+            android:title="Support Us"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

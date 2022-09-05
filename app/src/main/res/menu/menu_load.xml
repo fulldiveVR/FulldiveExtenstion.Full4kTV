@@ -3,5 +3,5 @@
         android:id="@+id/load"
         app:showAsAction="ifRoom"
         app:actionLayout="@layout/load_button"
-        android:title="@string/app_name" />
+        android:title="@string/refresh" />
 </menu>

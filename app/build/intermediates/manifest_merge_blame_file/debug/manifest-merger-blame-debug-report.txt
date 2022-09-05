@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.full.k.tv.private1.channels"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:5:5-67
+11-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:6:5-79
+12-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:7:5-76
+13-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="com.android.vending.BILLING" />
+14-->[com.android.billingclient:billing-ktx:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\2b7f19aee29cbf00cba3f7e9fefa4402\transformed\jetified-billing-ktx-5.0.0\AndroidManifest.xml:9:5-67
+14-->[com.android.billingclient:billing-ktx:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\2b7f19aee29cbf00cba3f7e9fefa4402\transformed\jetified-billing-ktx-5.0.0\AndroidManifest.xml:9:22-64
+15
+16    <application
+16-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:9:5-48:19
+17        android:allowBackup="true"
+17-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\c61287263f7ce0bc369b924eb1beec7d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:15:9-40
+26        <activity
+26-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:16:9-20:40
+27            android:name="com.full.k.tv.private1.channels.SettingsActivity"
+27-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:17:13-45
+28            android:exported="false"
+28-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:20:13-37
+29            android:label="Settings"
+29-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:18:13-37
+30            android:theme="@style/AppTheme_2" />
+30-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:19:13-46
+31        <activity
+31-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:21:9-31:20
+32            android:name="com.full.k.tv.private1.channels.MainActivity"
+32-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:22:13-41
+33            android:exported="true"
+33-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:23:13-36
+34            android:label="@string/app_name"
+34-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:24:13-45
+35            android:theme="@style/AppTheme.NoActionBar" >
+35-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:25:13-56
+36            <intent-filter>
+36-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:26:13-30:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:27:17-69
+37-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:27:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:29:17-77
+39-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:29:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:32:9-36:48
+43            android:name="com.full.k.tv.private1.channels.PlaylistActivity"
+43-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:33:13-45
+44            android:configChanges="orientation|keyboardHidden|screenSize"
+44-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:34:13-74
+45            android:exported="true"
+45-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:35:13-36
+46            android:label="@string/app_name" />
+46-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:36:13-45
+47        <activity
+47-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:37:9-41:48
+48            android:name="com.full.k.tv.private1.channels.ChannelsActivity"
+48-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:38:13-45
+49            android:configChanges="orientation|keyboardHidden|screenSize"
+49-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:39:13-74
+50            android:exported="true"
+50-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:40:13-36
+51            android:label="@string/app_name" />
+51-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:41:13-45
+52        <activity
+52-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:42:9-47:53
+53            android:name="com.full.k.tv.private1.channels.PlayerActivity"
+53-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:43:13-43
+54            android:configChanges="orientation|keyboardHidden|screenSize"
+54-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:44:13-74
+55            android:exported="true"
+55-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:45:13-36
+56            android:label="@string/app_name"
+56-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:46:13-45
+57            android:screenOrientation="landscape" />
+57-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:47:13-50
+58        <activity
+58-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:19:9-22:50
+59            android:name="com.khizar1556.mkvideoplayer.MKPlayerActivity"
+59-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:20:13-73
+60            android:configChanges="keyboardHidden|orientation|screenSize"
+60-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:21:13-74
+61            android:screenOrientation="sensor" />
+61-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:22:13-47
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+65            android:authorities="com.full.k.tv.private1.channels.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\b17b9092229c57f60fdbffb1af622591\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\b17b9092229c57f60fdbffb1af622591\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\b17b9092229c57f60fdbffb1af622591\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+73        </provider>
+74
+75        <meta-data
+75-->[com.android.billingclient:billing:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\c78339954b8ce34f3ddb1a0ff220b0ef\transformed\jetified-billing-5.0.0\AndroidManifest.xml:13:9-15:37
+76            android:name="com.google.android.play.billingclient.version"
+76-->[com.android.billingclient:billing:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\c78339954b8ce34f3ddb1a0ff220b0ef\transformed\jetified-billing-5.0.0\AndroidManifest.xml:14:13-73
+77            android:value="5.0.0" />
+77-->[com.android.billingclient:billing:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\c78339954b8ce34f3ddb1a0ff220b0ef\transformed\jetified-billing-5.0.0\AndroidManifest.xml:15:13-34
+78
+79        <activity
+79-->[com.android.billingclient:billing:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\c78339954b8ce34f3ddb1a0ff220b0ef\transformed\jetified-billing-5.0.0\AndroidManifest.xml:17:9-21:75
+80            android:name="com.android.billingclient.api.ProxyBillingActivity"
+80-->[com.android.billingclient:billing:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\c78339954b8ce34f3ddb1a0ff220b0ef\transformed\jetified-billing-5.0.0\AndroidManifest.xml:18:13-78
+81            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+81-->[com.android.billingclient:billing:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\c78339954b8ce34f3ddb1a0ff220b0ef\transformed\jetified-billing-5.0.0\AndroidManifest.xml:19:13-96
+82            android:exported="false"
+82-->[com.android.billingclient:billing:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\c78339954b8ce34f3ddb1a0ff220b0ef\transformed\jetified-billing-5.0.0\AndroidManifest.xml:20:13-37
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[com.android.billingclient:billing:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\c78339954b8ce34f3ddb1a0ff220b0ef\transformed\jetified-billing-5.0.0\AndroidManifest.xml:21:13-72
+84    </application>
+85
+86</manifest>

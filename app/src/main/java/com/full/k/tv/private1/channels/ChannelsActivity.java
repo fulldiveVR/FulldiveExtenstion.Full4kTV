@@ -18,6 +18,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.full.k.tv.private1.channels.adapter.ChannelsAdapter;
 import com.full.k.tv.private1.channels.models.ChannelsData;
@@ -147,7 +149,6 @@ public class ChannelsActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_load, menu);
 
         MenuItem mSearch = menu.findItem(R.id.action_search);
-
         SearchView mSearchView = (SearchView) mSearch.getActionView();
         mSearchView.setQueryHint("Search...");
 
@@ -201,27 +202,9 @@ public class ChannelsActivity extends AppCompatActivity {
                 return true;
             default:
                 int id = item.getItemId();
-
-                //noinspection SimplifiableIfStatement
-                if (id == R.id.action_about) {
-                    LayoutInflater inflater = this.getLayoutInflater();
-                    View dialogView = inflater.inflate(R.layout.bachors_apps, null);
-                    new AlertDialog.Builder(this)
-                            .setCancelable(false)
-                            .setNegativeButton("Ok", null)
-                            .setView(dialogView)
-                            .show();
-                }else if (id == R.id.action_rate) {
-                    Uri uri = Uri.parse("https://github.com/FDweb0/Full-4k-TV");
-                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                    startActivity(intent);
-                }else if (id == R.id.action_share) {
-                    Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                    shareIntent.setType("text/plain");
-                    shareIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/FDweb0/Full-4k-TV");
-                    startActivity(Intent.createChooser(shareIntent, "Share link using"));
+                if (id == R.id.action_settings) {
+                    startActivity(new Intent(this,SettingsActivity.class));
                 }
-
                 return super.onOptionsItemSelected(item);
         }
     }
