@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.full.k.tv.private1.channels"
+3    package="com.full.k.tv.top.secure.channels"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -43,7 +43,7 @@
 25-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:15:9-40
 26        <activity
 26-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:16:9-20:40
-27            android:name="com.full.k.tv.private1.channels.SettingsActivity"
+27            android:name="com.full.k.tv.top.secure.channels.SettingsActivity"
 27-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:17:13-45
 28            android:exported="false"
 28-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:20:13-37
@@ -53,7 +53,7 @@
 30-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:19:13-46
 31        <activity
 31-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:21:9-31:20
-32            android:name="com.full.k.tv.private1.channels.MainActivity"
+32            android:name="com.full.k.tv.top.secure.channels.MainActivity"
 32-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:22:13-41
 33            android:exported="true"
 33-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:23:13-36
@@ -74,7 +74,7 @@
 41        </activity>
 42        <activity
 42-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:32:9-36:48
-43            android:name="com.full.k.tv.private1.channels.PlaylistActivity"
+43            android:name="com.full.k.tv.top.secure.channels.PlaylistActivity"
 43-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:33:13-45
 44            android:configChanges="orientation|keyboardHidden|screenSize"
 44-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:34:13-74
@@ -84,7 +84,7 @@
 46-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:36:13-45
 47        <activity
 47-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:37:9-41:48
-48            android:name="com.full.k.tv.private1.channels.ChannelsActivity"
+48            android:name="com.full.k.tv.top.secure.channels.ChannelsActivity"
 48-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:38:13-45
 49            android:configChanges="orientation|keyboardHidden|screenSize"
 49-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:39:13-74
@@ -94,7 +94,7 @@
 51-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:41:13-45
 52        <activity
 52-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:42:9-47:53
-53            android:name="com.full.k.tv.private1.channels.PlayerActivity"
+53            android:name="com.full.k.tv.top.secure.channels.PlayerActivity"
 53-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:43:13-43
 54            android:configChanges="orientation|keyboardHidden|screenSize"
 54-->F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:44:13-74
@@ -117,7 +117,7 @@
 63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 64            android:name="androidx.startup.InitializationProvider"
 64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-65            android:authorities="com.full.k.tv.private1.channels.androidx-startup"
+65            android:authorities="com.full.k.tv.top.secure.channels.androidx-startup"
 65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
 66            android:exported="false" >
 66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37

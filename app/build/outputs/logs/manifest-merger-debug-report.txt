@@ -57,7 +57,7 @@ INJECTED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManife
 INJECTED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:2:1-50:12
 INJECTED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
-		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:3:5-46
+		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml
 		INJECTED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -122,7 +122,7 @@ MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\Shahzaib\.gradle\
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:15:9-40
-activity#com.full.k.tv.private1.channels.SettingsActivity
+activity#com.full.k.tv.top.secure.channels.SettingsActivity
 ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:16:9-20:40
 	android:label
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:18:13-37
@@ -132,7 +132,7 @@ ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:19:13-46
 	android:name
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:17:13-45
-activity#com.full.k.tv.private1.channels.MainActivity
+activity#com.full.k.tv.top.secure.channels.MainActivity
 ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:21:9-31:20
 	android:label
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:24:13-45
@@ -152,7 +152,7 @@ category#android.intent.category.LAUNCHER
 ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:29:27-74
-activity#com.full.k.tv.private1.channels.PlaylistActivity
+activity#com.full.k.tv.top.secure.channels.PlaylistActivity
 ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:32:9-36:48
 	android:label
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:36:13-45
@@ -162,7 +162,7 @@ ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:34:13-74
 	android:name
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:33:13-45
-activity#com.full.k.tv.private1.channels.ChannelsActivity
+activity#com.full.k.tv.top.secure.channels.ChannelsActivity
 ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:37:9-41:48
 	android:label
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:41:13-45
@@ -172,7 +172,7 @@ ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:39:13-74
 	android:name
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:38:13-45
-activity#com.full.k.tv.private1.channels.PlayerActivity
+activity#com.full.k.tv.top.secure.channels.PlayerActivity
 ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:42:9-47:53
 	android:screenOrientation
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:47:13-50

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.full.k.tv.private1.channels"
+    package="com.full.k.tv.top.secure.channels"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -24,12 +24,12 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.full.k.tv.private1.channels.SettingsActivity"
+            android:name="com.full.k.tv.top.secure.channels.SettingsActivity"
             android:exported="false"
             android:label="Settings"
             android:theme="@style/AppTheme_2" />
         <activity
-            android:name="com.full.k.tv.private1.channels.MainActivity"
+            android:name="com.full.k.tv.top.secure.channels.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
@@ -40,17 +40,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.full.k.tv.private1.channels.PlaylistActivity"
+            android:name="com.full.k.tv.top.secure.channels.PlaylistActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:label="@string/app_name" />
         <activity
-            android:name="com.full.k.tv.private1.channels.ChannelsActivity"
+            android:name="com.full.k.tv.top.secure.channels.ChannelsActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:label="@string/app_name" />
         <activity
-            android:name="com.full.k.tv.private1.channels.PlayerActivity"
+            android:name="com.full.k.tv.top.secure.channels.PlayerActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:label="@string/app_name"
@@ -62,7 +62,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.full.k.tv.private1.channels.androidx-startup"
+            android:authorities="com.full.k.tv.top.secure.channels.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

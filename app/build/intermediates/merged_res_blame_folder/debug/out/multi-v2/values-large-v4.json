@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.full.k.tv.private1.channels.app-mergeDebugResources-29:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.full.k.tv.top.secure.channels.app-mergeDebugResources-29:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Shahzaib\\.gradle\\caches\\transforms-3\\4d669feee3bbcaf630ded0ac4934be61\\transformed\\appcompat-1.4.2\\res\\values-large-v4\\values-large-v4.xml",
