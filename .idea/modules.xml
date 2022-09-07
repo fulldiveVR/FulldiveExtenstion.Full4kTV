@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Full-4k-TV.iml" filepath="$PROJECT_DIR$/.idea/modules/Full-4k-TV.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Full-4k-TV.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FulldiveExtenstion.Full4kTV.iml" filepath="$PROJECT_DIR$/.idea/modules/FulldiveExtenstion.Full4kTV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FulldiveExtenstion.Full4kTV.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FulldiveExtenstion.Full4kTV.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FulldiveExtenstion.Full4kTV.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FulldiveExtenstion.Full4kTV.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FulldiveExtenstion.Full4kTV.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FulldiveExtenstion.Full4kTV.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FulldiveExtenstion.Full4kTV.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FulldiveExtenstion.Full4kTV.app.unitTest.iml" />
     </modules>
   </component>
 </project>

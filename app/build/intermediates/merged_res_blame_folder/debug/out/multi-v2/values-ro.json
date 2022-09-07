@@ -4,7 +4,24 @@
             "outputFile": "com.full.k.tv.top.secure.channels.app-mergeDebugResources-29:/values-ro/values-ro.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Shahzaib\\.gradle\\caches\\transforms-3\\b6f52d92dea29c0a7f49d4078033a89a\\transformed\\material-1.6.1\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/yuliabatova/.gradle/caches/transforms-3/bb1dad4da5af29bd4d9045aee6d492ff/transformed/jetified-mkvideoplayer-0.1.5/res/values-ro/values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,106,208,279",
+                        "endColumns": "50,101,70,76",
+                        "endOffsets": "101,203,274,351"
+                    },
+                    "to": {
+                        "startLines": "34,41,89,92",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3072,3677,7566,7800",
+                        "endColumns": "50,101,70,76",
+                        "endOffsets": "3118,3774,7632,7872"
+                    }
+                },
+                {
+                    "source": "/Users/yuliabatova/.gradle/caches/transforms-3/b6f52d92dea29c0a7f49d4078033a89a/transformed/material-1.6.1/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Shahzaib\\.gradle\\caches\\transforms-3\\c61287263f7ce0bc369b924eb1beec7d\\transformed\\core-1.7.0\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/yuliabatova/.gradle/caches/transforms-3/c61287263f7ce0bc369b924eb1beec7d/transformed/core-1.7.0/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -40,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Shahzaib\\.gradle\\caches\\transforms-3\\66eed08dd29556e03e3fe604d83b057e\\transformed\\jetified-mkvideoplayer-0.1.5\\res\\values-ro\\values-ro.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,106,208,279",
-                        "endColumns": "50,101,70,76",
-                        "endOffsets": "101,203,274,351"
-                    },
-                    "to": {
-                        "startLines": "34,41,89,92",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3072,3677,7566,7800",
-                        "endColumns": "50,101,70,76",
-                        "endOffsets": "3118,3774,7632,7872"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Shahzaib\\.gradle\\caches\\transforms-3\\4d669feee3bbcaf630ded0ac4934be61\\transformed\\appcompat-1.4.2\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/yuliabatova/.gradle/caches/transforms-3/4d669feee3bbcaf630ded0ac4934be61/transformed/appcompat-1.4.2/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

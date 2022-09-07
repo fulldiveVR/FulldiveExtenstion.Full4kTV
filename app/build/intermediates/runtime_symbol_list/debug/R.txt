@@ -2526,6 +2526,7 @@ int drawable ic_play_arrow_white_24dp 0x7f080095
 int drawable ic_play_circle_outline_white_36dp 0x7f080096
 int drawable ic_search 0x7f080097
 int drawable ic_stop_white_24dp 0x7f080098
+int drawable ic_tv_splash 0x7f0800ca
 int drawable ic_volume_off_white_36dp 0x7f080099
 int drawable ic_volume_up_white_36dp 0x7f08009a
 int drawable load 0x7f08009b

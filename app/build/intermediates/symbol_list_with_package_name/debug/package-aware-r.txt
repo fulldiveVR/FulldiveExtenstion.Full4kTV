@@ -2527,6 +2527,7 @@ drawable ic_play_arrow_white_24dp
 drawable ic_play_circle_outline_white_36dp
 drawable ic_search
 drawable ic_stop_white_24dp
+drawable ic_tv_splash
 drawable ic_volume_off_white_36dp
 drawable ic_volume_up_white_36dp
 drawable load

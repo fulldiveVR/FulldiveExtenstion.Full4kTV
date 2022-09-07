@@ -1,14 +1,14 @@
-#Mon Sep 05 05:29:41 PKT 2022
+#Wed Sep 07 15:00:33 MSK 2022
 path.4=8/classes.dex
 path.3=5/classes.dex
 path.2=1/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=F\:\\AndroidCodes\\GITHUB CODES\\Full-4k-TV\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.3=F\:\\AndroidCodes\\GITHUB CODES\\Full-4k-TV\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.2=F\:\\AndroidCodes\\GITHUB CODES\\Full-4k-TV\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.1=F\:\\AndroidCodes\\GITHUB CODES\\Full-4k-TV\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=F\:\\AndroidCodes\\GITHUB CODES\\Full-4k-TV\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
+base.3=/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+base.2=/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.1=/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

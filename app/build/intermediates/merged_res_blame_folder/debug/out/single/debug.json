@@ -1,150 +1,158 @@
 [
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/menu_menu_load.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/menu/menu_load.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_activity_player.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/layout/activity_player.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_load.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/drawable/load.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_item_channels.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/layout/item_channels.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/menu_menu_search.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/menu/menu_search.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_baseline_arrow_back_24.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_load.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/drawable/load.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_load.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_load.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_baseline_arrow_back_24.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_baseline_arrow_back_24.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_tv_splash.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_tv_splash.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_item_playlist.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/layout/item_playlist.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/xml_preference.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/xml/preference.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_bachors_apps.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/layout/bachors_apps.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_activity_settings.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_load.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_load.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_activity_playlist.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/layout/activity_playlist.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_logo.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/drawable/logo.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_logo.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/drawable/logo.png"
     },
     {
         "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_activity_main.xml.flat",
         "source": "com.full.k.tv.top.secure.channels.app-main-33:/layout/activity_main.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_activity_playlist.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/layout/activity_playlist.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/menu_menu_search.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/menu/menu_search.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/menu_main.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/menu/main.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_load_button.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/layout/load_button.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_load_button.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/layout/load_button.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_activity_player.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/layout/activity_player.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/menu_main.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/menu/main.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_item_channels.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/layout/item_channels.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/layout/activity_main.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/menu_menu_load.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/menu/menu_load.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_dots.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_dots.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_activity_channels.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/layout/activity_channels.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_activity_channels.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/layout/activity_channels.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_bachors_apps.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/layout/bachors_apps.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/xml_preference.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/xml/preference.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_activity_settings.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/layout/activity_settings.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/layout_item_playlist.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/layout/item_playlist.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_search.xml.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_search.xml"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_dots.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_dots.xml"
     },
     {
-        "merged": "com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/drawable_ic_search.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/yuliabatova/.gradle/daemon/7.3.3/com.full.k.tv.top.secure.channels.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]
