@@ -1,13 +1,23 @@
 apply plugin: 'com.android.application'
 
+def versionMajor = 1
+def versionMinor = 0
+def versionPatch = 0
+
 android {
     compileSdkVersion 32
     defaultConfig {
         applicationId "com.full.k.tv.top.secure.channels"
         minSdkVersion 21
         targetSdkVersion 32
-        versionCode 1
-        versionName "1.0"
+        versionCode versionMajor*10000+versionMinor*100+versionPatch
+        versionName "${versionMajor}.${versionMinor}.${versionPatch}"
+        resValue "string","app_version", "${defaultConfig.versionName}"
+        applicationVariants.all { variant ->
+            variant.outputs.each { output ->
+                output.outputFileName = "Full4kTV-v${android.defaultConfig.versionName}-${variant.buildType.name}.apk"
+            }
+        }
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
     signingConfigs {
