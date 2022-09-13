@@ -7,7 +7,7 @@ INJECTED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManife
 MERGED from [com.fulldive:popups:1.0.9] C:\Users\Shahzaib\.gradle\caches\transforms-3\abdeca2509ac888fd7ead2949ee8298e\transformed\jetified-popups-1.0.9\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Shahzaib\.gradle\caches\transforms-3\b6f52d92dea29c0a7f49d4078033a89a\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Shahzaib\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:2:1-25:12
+MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:2:1-25:12
 MERGED from [com.fulldive:Google-IAP:1.0.3] C:\Users\Shahzaib\.gradle\caches\transforms-3\71f99795f1151c2b31db53a517f1fa05\transformed\jetified-Google-IAP-1.0.3\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\Shahzaib\.gradle\caches\transforms-3\4d669feee3bbcaf630ded0ac4934be61\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\d4c9e45086bb311ab5f003976f396c14\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -72,14 +72,14 @@ INJECTED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManife
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:12:5-67
-MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:12:5-67
+MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:12:5-67
+MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:12:5-67
 	android:name
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:6:5-79
-MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:13:5-79
-MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:13:5-79
+MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:13:5-79
+MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:13:5-79
 	android:name
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
@@ -92,8 +92,8 @@ MERGED from [com.google.android.material:material:1.6.1] C:\Users\Shahzaib\.grad
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Shahzaib\.gradle\caches\transforms-3\b6f52d92dea29c0a7f49d4078033a89a\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Shahzaib\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Shahzaib\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:15:5-23:19
-MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:15:5-23:19
+MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:15:5-23:19
+MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:15:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\af57f27ac6cf6858bf204a7ff6559ce2\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\af57f27ac6cf6858bf204a7ff6559ce2\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\55166facbbf2a1313baa8ab94e05819f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
@@ -194,8 +194,8 @@ MERGED from [com.google.android.material:material:1.6.1] C:\Users\Shahzaib\.grad
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Shahzaib\.gradle\caches\transforms-3\b6f52d92dea29c0a7f49d4078033a89a\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Shahzaib\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Shahzaib\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:8:5-10:41
 MERGED from [com.fulldive:Google-IAP:1.0.3] C:\Users\Shahzaib\.gradle\caches\transforms-3\71f99795f1151c2b31db53a517f1fa05\transformed\jetified-Google-IAP-1.0.3\AndroidManifest.xml:5:5-7:41
 MERGED from [com.fulldive:Google-IAP:1.0.3] C:\Users\Shahzaib\.gradle\caches\transforms-3\71f99795f1151c2b31db53a517f1fa05\transformed\jetified-Google-IAP-1.0.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\Shahzaib\.gradle\caches\transforms-3\4d669feee3bbcaf630ded0ac4934be61\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
@@ -297,13 +297,13 @@ INJECTED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManife
 		ADDED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml
 		INJECTED from F:\AndroidCodes\GITHUB CODES\Full-4k-TV\app\src\main\AndroidManifest.xml
 activity#com.khizar1556.mkvideoplayer.MKPlayerActivity
-ADDED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:19:9-22:50
+ADDED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:19:9-22:50
 	android:screenOrientation
-		ADDED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:22:13-47
+		ADDED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:22:13-47
 	android:configChanges
-		ADDED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:21:13-74
+		ADDED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:21:13-74
 	android:name
-		ADDED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\66eed08dd29556e03e3fe604d83b057e\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:20:13-73
+		ADDED from [com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] C:\Users\Shahzaib\.gradle\caches\transforms-3\a8e40437f1ae5d6988f7a732eddd2671\transformed\jetified-mkvideoplayer-0.1.5\AndroidManifest.xml:20:13-73
 uses-permission#com.android.vending.BILLING
 ADDED from [com.android.billingclient:billing-ktx:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\2b7f19aee29cbf00cba3f7e9fefa4402\transformed\jetified-billing-ktx-5.0.0\AndroidManifest.xml:9:5-67
 MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\Shahzaib\.gradle\caches\transforms-3\c78339954b8ce34f3ddb1a0ff220b0ef\transformed\jetified-billing-5.0.0\AndroidManifest.xml:10:5-67

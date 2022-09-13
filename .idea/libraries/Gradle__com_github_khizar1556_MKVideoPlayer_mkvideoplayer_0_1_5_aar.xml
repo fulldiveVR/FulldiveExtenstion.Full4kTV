@@ -7,6 +7,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/66eed08dd29556e03e3fe604d83b057e/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/66eed08dd29556e03e3fe604d83b057e/transformed/jetified-mkvideoplayer-0.1.5/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/66eed08dd29556e03e3fe604d83b057e/transformed/jetified-mkvideoplayer-0.1.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a8e40437f1ae5d6988f7a732eddd2671/transformed/jetified-mkvideoplayer-0.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a8e40437f1ae5d6988f7a732eddd2671/transformed/jetified-mkvideoplayer-0.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a8e40437f1ae5d6988f7a732eddd2671/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
