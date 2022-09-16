@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.full.k.tv.top.secure.channels.app-mergeDebugResources-29:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.full.k.tv.top.secure.channels.app-mergeDebugResources-3:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/yuliabatova/.gradle/caches/transforms-3/4d669feee3bbcaf630ded0ac4934be61/transformed/appcompat-1.4.2/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/4d669feee3bbcaf630ded0ac4934be61/transformed/appcompat-1.4.2/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

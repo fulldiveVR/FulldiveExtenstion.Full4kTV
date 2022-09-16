@@ -3354,6 +3354,7 @@ string about_us
 string androidx_startup
 string app_name
 string app_v
+string app_version
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway

@@ -17,8 +17,18 @@
         <entry key="..\:/AndroidStudioProjects/Full-4k-TV/app/src/main/res/layout/item_channels.xml" value="0.42916666666666664" />
         <entry key="..\:/AndroidStudioProjects/Full-4k-TV/app/src/main/res/menu/main.xml" value="0.42916666666666664" />
         <entry key="..\:/AndroidStudioProjects/Full-4k-TV/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2695" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_dots.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_load.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_tv_splash.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14336372847011145" />
+        <entry key="app/src/main/res/layout/activity_playlist.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/load_button.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/menu/menu_load.xml" value="0.1527777777777778" />
+        <entry key="app/src/main/res/menu/menu_search.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.fulldive:popups:1.0.9@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/transforms-3/abdeca2509ac888fd7ead2949ee8298e/transformed/jetified-popups-1.0.9/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-3/abdeca2509ac888fd7ead2949ee8298e/transformed/jetified-popups-1.0.9/res" />
-      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-3/abdeca2509ac888fd7ead2949ee8298e/transformed/jetified-popups-1.0.9/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/abdeca2509ac888fd7ead2949ee8298e/transformed/jetified-popups-1.0.9/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/abdeca2509ac888fd7ead2949ee8298e/transformed/jetified-popups-1.0.9/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/abdeca2509ac888fd7ead2949ee8298e/transformed/jetified-popups-1.0.9/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../reminder/gradle/jdks/caches/transforms-3/abdeca2509ac888fd7ead2949ee8298e/transformed/jetified-popups-1.0.9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../reminder/gradle/jdks/caches/transforms-3/abdeca2509ac888fd7ead2949ee8298e/transformed/jetified-popups-1.0.9/res" />
+      <root url="file://$PROJECT_DIR$/../../reminder/gradle/jdks/caches/transforms-3/abdeca2509ac888fd7ead2949ee8298e/transformed/jetified-popups-1.0.9/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

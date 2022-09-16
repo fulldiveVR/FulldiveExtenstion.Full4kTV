@@ -128,7 +128,6 @@ public class PlaylistActivity extends AppCompatActivity {
         }));
         adapter.clear();
         jsonTogson();
-
     }
 
     private void jsonTogson() {

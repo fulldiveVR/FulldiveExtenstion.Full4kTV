@@ -1,15 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/transforms-3/41587e877184b195d6bb00d5eb452f7e/transformed/jetified-mkvideoplayer-0.1.5/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-3/41587e877184b195d6bb00d5eb452f7e/transformed/jetified-mkvideoplayer-0.1.5/res" />
-      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-3/41587e877184b195d6bb00d5eb452f7e/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/66eed08dd29556e03e3fe604d83b057e/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/66eed08dd29556e03e3fe604d83b057e/transformed/jetified-mkvideoplayer-0.1.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/66eed08dd29556e03e3fe604d83b057e/transformed/jetified-mkvideoplayer-0.1.5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bb1dad4da5af29bd4d9045aee6d492ff/transformed/jetified-mkvideoplayer-0.1.5/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bb1dad4da5af29bd4d9045aee6d492ff/transformed/jetified-mkvideoplayer-0.1.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bb1dad4da5af29bd4d9045aee6d492ff/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../reminder/gradle/jdks/caches/transforms-3/c1d71358de81c73bdb77bc4842245224/transformed/jetified-mkvideoplayer-0.1.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../reminder/gradle/jdks/caches/transforms-3/c1d71358de81c73bdb77bc4842245224/transformed/jetified-mkvideoplayer-0.1.5/res" />
+      <root url="file://$PROJECT_DIR$/../../reminder/gradle/jdks/caches/transforms-3/c1d71358de81c73bdb77bc4842245224/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

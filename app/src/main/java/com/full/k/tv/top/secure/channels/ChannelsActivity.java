@@ -55,8 +55,12 @@ public class ChannelsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_channels);
 
         Bundle b = getIntent().getExtras();
-        getSupportActionBar().setSubtitle(Html.fromHtml("<small>"+b.getString("title")+"</small>"));
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        try {
+            getSupportActionBar().setSubtitle(Html.fromHtml("<small>" + b.getString("title") + "</small>"));
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        } catch (Exception e) {
+
+        }
 
         mcon = this;
 
@@ -117,10 +121,10 @@ public class ChannelsActivity extends AppCompatActivity {
         adapter.addAll(searchData);
     }
 
-    private void goTo(int id){
-        if(all){
+    private void goTo(int id) {
+        if (all) {
             key = id;
-        }else{
+        } else {
             key = allData.indexOf(searchData.get(id));
         }
 
@@ -157,10 +161,10 @@ public class ChannelsActivity extends AppCompatActivity {
             public boolean onQueryTextChange(String s) {
                 adapter.clear();
                 //after the change calling the method and passing the search input
-                if(s.equals("")){
+                if (s.equals("")) {
                     all = true;
                     adapter.addAll(allData);
-                }else {
+                } else {
                     all = false;
                     filter(s);
                 }
@@ -198,7 +202,7 @@ public class ChannelsActivity extends AppCompatActivity {
             default:
                 int id = item.getItemId();
                 if (id == R.id.action_settings) {
-                    startActivity(new Intent(this,SettingsActivity.class));
+                    startActivity(new Intent(this, SettingsActivity.class));
                 }
                 return super.onOptionsItemSelected(item);
         }
@@ -220,7 +224,7 @@ public class ChannelsActivity extends AppCompatActivity {
                         Elements trs = table.select("tr");
                         int i = 0;
                         for (Element tr : trs) {
-                            if(i > 0) {
+                            if (i > 0) {
                                 JSONObject ob = new JSONObject();
                                 ob.put("title", tr.select("td").eq(0).text());
                                 ob.put("link", tr.select("td").eq(2).select("code").eq(0).text());
@@ -228,7 +232,7 @@ public class ChannelsActivity extends AppCompatActivity {
                             }
                             i++;
                         }
-                        json.put( ar);
+                        json.put(ar);
                     }
                 } catch (IOException ignored) {
 

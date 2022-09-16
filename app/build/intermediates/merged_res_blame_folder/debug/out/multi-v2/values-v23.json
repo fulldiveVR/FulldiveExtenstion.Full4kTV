@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.full.k.tv.top.secure.channels.app-mergeDebugResources-29:/values-v23/values-v23.xml",
+            "outputFile": "com.full.k.tv.top.secure.channels.app-mergeDebugResources-3:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/yuliabatova/.gradle/caches/transforms-3/b6f52d92dea29c0a7f49d4078033a89a/transformed/material-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/b6f52d92dea29c0a7f49d4078033a89a/transformed/material-1.6.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/yuliabatova/.gradle/caches/transforms-3/d4c9e45086bb311ab5f003976f396c14/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/d4c9e45086bb311ab5f003976f396c14/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/yuliabatova/.gradle/caches/transforms-3/4d669feee3bbcaf630ded0ac4934be61/transformed/appcompat-1.4.2/res/values-v23/values-v23.xml",
+                    "source": "/Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/4d669feee3bbcaf630ded0ac4934be61/transformed/appcompat-1.4.2/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

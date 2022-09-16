@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.full.k.tv.top.secure.channels.app-mergeDebugResources-29:/values-ch/values-ch.xml",
+            "outputFile": "com.full.k.tv.top.secure.channels.app-mergeDebugResources-3:/values-ch/values-ch.xml",
             "map": [
                 {
-                    "source": "/Users/yuliabatova/.gradle/caches/transforms-3/bb1dad4da5af29bd4d9045aee6d492ff/transformed/jetified-mkvideoplayer-0.1.5/res/values-ch/values-ch.xml",
+                    "source": "/Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c1d71358de81c73bdb77bc4842245224/transformed/jetified-mkvideoplayer-0.1.5/res/values-ch/values-ch.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

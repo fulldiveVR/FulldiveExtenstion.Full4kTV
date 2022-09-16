@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.full.k.tv.top.secure.channels"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="10000"
+5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -20,15 +20,15 @@
 13-->/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/src/main/AndroidManifest.xml:7:5-76
 13-->/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/src/main/AndroidManifest.xml:7:22-73
 14    <uses-permission android:name="com.android.vending.BILLING" />
-14-->[com.android.billingclient:billing-ktx:5.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/2b7f19aee29cbf00cba3f7e9fefa4402/transformed/jetified-billing-ktx-5.0.0/AndroidManifest.xml:9:5-67
-14-->[com.android.billingclient:billing-ktx:5.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/2b7f19aee29cbf00cba3f7e9fefa4402/transformed/jetified-billing-ktx-5.0.0/AndroidManifest.xml:9:22-64
+14-->[com.android.billingclient:billing-ktx:5.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/2b7f19aee29cbf00cba3f7e9fefa4402/transformed/jetified-billing-ktx-5.0.0/AndroidManifest.xml:9:5-67
+14-->[com.android.billingclient:billing-ktx:5.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/2b7f19aee29cbf00cba3f7e9fefa4402/transformed/jetified-billing-ktx-5.0.0/AndroidManifest.xml:9:22-64
 15
 16    <application
 16-->/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/src/main/AndroidManifest.xml:9:5-48:19
 17        android:allowBackup="true"
 17-->/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/src/main/AndroidManifest.xml:10:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.7.0] /Users/yuliabatova/.gradle/caches/transforms-3/c61287263f7ce0bc369b924eb1beec7d/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.7.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c61287263f7ce0bc369b924eb1beec7d/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
 20-->/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/src/main/AndroidManifest.xml:11:9-43
@@ -105,53 +105,53 @@
 57            android:screenOrientation="landscape" />
 57-->/Users/yuliabatova/AndroidStudioProjects/fdvr/FulldiveExtenstion.Full4kTV/app/src/main/AndroidManifest.xml:47:13-50
 58        <activity
-58-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] /Users/yuliabatova/.gradle/caches/transforms-3/bb1dad4da5af29bd4d9045aee6d492ff/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml:19:9-22:50
+58-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c1d71358de81c73bdb77bc4842245224/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml:19:9-22:50
 59            android:name="com.khizar1556.mkvideoplayer.MKPlayerActivity"
-59-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] /Users/yuliabatova/.gradle/caches/transforms-3/bb1dad4da5af29bd4d9045aee6d492ff/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml:20:13-73
+59-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c1d71358de81c73bdb77bc4842245224/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml:20:13-73
 60            android:configChanges="keyboardHidden|orientation|screenSize"
-60-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] /Users/yuliabatova/.gradle/caches/transforms-3/bb1dad4da5af29bd4d9045aee6d492ff/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml:21:13-74
+60-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c1d71358de81c73bdb77bc4842245224/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml:21:13-74
 61            android:screenOrientation="sensor" />
-61-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] /Users/yuliabatova/.gradle/caches/transforms-3/bb1dad4da5af29bd4d9045aee6d492ff/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml:22:13-47
+61-->[com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c1d71358de81c73bdb77bc4842245224/transformed/jetified-mkvideoplayer-0.1.5/AndroidManifest.xml:22:13-47
 62
 63        <provider
-63-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 64            android:name="androidx.startup.InitializationProvider"
-64-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
 65            android:authorities="com.full.k.tv.top.secure.channels.androidx-startup"
-65-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
 66            android:exported="false" >
-66-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
 67            <meta-data
-67-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
 68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-68-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
 69                android:value="androidx.startup" />
-69-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+69-->[androidx.emoji2:emoji2:1.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/55166facbbf2a1313baa8ab94e05819f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
 70            <meta-data
-70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yuliabatova/.gradle/caches/transforms-3/b17b9092229c57f60fdbffb1af622591/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/b17b9092229c57f60fdbffb1af622591/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
 71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yuliabatova/.gradle/caches/transforms-3/b17b9092229c57f60fdbffb1af622591/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/b17b9092229c57f60fdbffb1af622591/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
 72                android:value="androidx.startup" />
-72-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yuliabatova/.gradle/caches/transforms-3/b17b9092229c57f60fdbffb1af622591/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/b17b9092229c57f60fdbffb1af622591/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
 73        </provider>
 74
 75        <meta-data
-75-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:13:9-15:37
+75-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:13:9-15:37
 76            android:name="com.google.android.play.billingclient.version"
-76-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:14:13-73
+76-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:14:13-73
 77            android:value="5.0.0" />
-77-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:15:13-34
+77-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:15:13-34
 78
 79        <activity
-79-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:17:9-21:75
+79-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:17:9-21:75
 80            android:name="com.android.billingclient.api.ProxyBillingActivity"
-80-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:18:13-78
+80-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:18:13-78
 81            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-81-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:19:13-96
+81-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:19:13-96
 82            android:exported="false"
-82-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:20:13-37
+82-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:20:13-37
 83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-83-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/.gradle/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:21:13-72
+83-->[com.android.billingclient:billing:5.0.0] /Users/yuliabatova/AndroidStudioProjects/reminder/gradle/jdks/caches/transforms-3/c78339954b8ce34f3ddb1a0ff220b0ef/transformed/jetified-billing-5.0.0/AndroidManifest.xml:21:13-72
 84    </application>
 85
 86</manifest>
