@@ -10,9 +10,9 @@ android {
         applicationId "com.full.k.tv.top.secure.channels"
         minSdkVersion 21
         targetSdkVersion 32
-        versionCode versionMajor*10000+versionMinor*100+versionPatch
+        versionCode versionMajor * 10000 + versionMinor * 100 + versionPatch
         versionName "${versionMajor}.${versionMinor}.${versionPatch}"
-        resValue "string","app_version", "${defaultConfig.versionName}"
+        resValue "string", "app_version", "${defaultConfig.versionName}"
         applicationVariants.all { variant ->
             variant.outputs.each { output ->
                 output.outputFileName = "Full4kTV-v${android.defaultConfig.versionName}-${variant.buildType.name}.apk"
@@ -64,6 +64,8 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.github.khizar1556.MKVideoPlayer:mkvideoplayer:0.1.5'
     implementation 'org.jsoup:jsoup:1.13.1'
+
+    releaseImplementation "com.snore.guard:full4ktv:1.4.0"
 
     testImplementation 'junit:junit:4.13.2'
 }
